@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "MaruBuri";
+  src: url("/fonts/MaruBuri-Regular.ttf") format("TrueType"),
+    url("/fonts/MaruBuri-Bold.ttf") format("TrueType");
+}
