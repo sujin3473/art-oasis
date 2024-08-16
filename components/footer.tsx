@@ -1,5 +1,5 @@
 const Footer = () => (
-  <div className="text-gray-AF h-[200px] flex items-center">
+  <div className="text-default-gray-A border-t-2 h-[200px] p-10">
     Copyright 2024 ARO Construction Inc. All rights reserved.
   </div>
 );

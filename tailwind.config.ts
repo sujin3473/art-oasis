@@ -11,7 +11,8 @@ const config: Config = {
     extend: {
       colors,
       fontFamily: {
-        maruburi: ["Maruburi"],
+        maruburi: ["Maruburi-Regular"],
+        "maruburi-bold": ["Maruburi-Bold"],
       },
     },
   },

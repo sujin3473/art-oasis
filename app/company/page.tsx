@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Company() {
   return (
-    <div className="pt-[70px] font-maruburi">
+    <div className="pt-[70px] pb-[200px] px-[15%] font-maruburi">
       <div className="flex items-center">
         <div className="w-[292px] h-[313px] relative">
           <Image src="/images/ceo.png" alt="ceo" fill />
         </div>
-        <div>
+        <div className="font-maruburi-bold">
           <h1 className="text-aro-blue text-[30px] mt-[60px]">
             여러분 안녕하십니까
           </h1>
@@ -39,7 +39,7 @@ export default function Company() {
         </p>
         <p className="mt-[100px] text-[20px] font-maruburi-bold">
           ㈜아르오종합건설 총괄대표이사
-          <span className="font-extrabold text-[30px] ml-2">송인규</span>
+          <span className="font-black text-[30px] ml-2">송인규</span>
         </p>
       </div>
     </div>
